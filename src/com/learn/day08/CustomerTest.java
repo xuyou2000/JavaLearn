@@ -18,6 +18,7 @@ public class CustomerTest {
         cust1.age = 10;
         cust1.eat();
         cust1.sleep(2);
+        cust1.age = 0;
 
     }
 }
