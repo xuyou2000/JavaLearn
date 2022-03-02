@@ -40,12 +40,13 @@ public class StudentTest {
 
     /**
      * @description 查找Students数组中指定年级学生信息
-     * @Author XuYou
-     * @Date 5:41 PM  2022/3/2
+     * @author XuYou
+     * @date 5:41 PM  2022/3/2
      * @param students 要查找的数组
      * @param state 要查找的年级
      * @return
      */
+
     public void searchState(Student[] students,int state) {
         for (int i = 0; i < students.length; i++) {
             if (students[i].state == state) {
@@ -56,8 +57,8 @@ public class StudentTest {
     
     /**
      * @description 根据score给students数组进行排序，并返回排序后的数组
-     * @Author XuYou
-     * @Date 5:55 PM  2022/3/2
+     * @author XuYou
+     * @date 5:55 PM  2022/3/2
      * @param students
      * @return {@link Student[]}
      */
