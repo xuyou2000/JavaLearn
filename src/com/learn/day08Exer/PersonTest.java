@@ -9,7 +9,8 @@ public class PersonTest {
         p1.sex = 1;
 
         p1.study();
-        p1.addAge(2);
+        int newAge=p1.addAge(2);
         p1.showAge();
+        System.out.println("newAge=" + newAge);
     }
 }
