@@ -1,4 +1,7 @@
 package com.learn.day08;
+
+import java.util.Arrays;
+
 /*
 类中方法的声明和使用
 
@@ -19,6 +22,10 @@ public class CustomerTest {
         cust1.eat();
         cust1.sleep(2);
         cust1.age = 0;
+
+        int[] arr = new int[]{13, 7, 4, 8};
+        cust1.sort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 }
@@ -47,6 +54,11 @@ class Customer {
     public String getNation(String nation) {
         String info = "我的国籍是" + nation;
         return info;
+    }
+
+    public void sort(int[] arr) {
+        Arrays.sort(arr);
+
     }
 }
 
