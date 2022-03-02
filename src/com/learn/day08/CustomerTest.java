@@ -14,6 +14,7 @@ void 通常不使用return，如果使用的话，直接写"return;"类似于bre
 方法名：要符合方法名规范xxxYyyyZzzz 见名知意
 
 注意： static、final、abstract来修饰的方法，后面再讲
+方法中可以调用自身（递归）
  */
 public class CustomerTest {
     public static void main(String[] args) {
@@ -58,7 +59,6 @@ class Customer {
 
     public void sort(int[] arr) {
         Arrays.sort(arr);
-
     }
 }
 
