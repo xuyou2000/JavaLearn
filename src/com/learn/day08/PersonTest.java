@@ -6,7 +6,7 @@ package com.learn.day08;
 
 创建类的对象：类的实例化
 如果创建了一个类的多个对象，则每个对象都独立的拥有一套类的属性（非static的属性）
-内存解析：堆 存放对象实例
+内存解析：堆 存放对象实例 局部变量在栈空间
  */
 public class PersonTest {
     public static void main(String[] args) {
