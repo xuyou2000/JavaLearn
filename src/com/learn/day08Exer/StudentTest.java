@@ -9,6 +9,9 @@ import java.util.Scanner;
 提示:
 1) 生成随机数:Math.random()，返回值类型double;
 2) 四舍五入取整:Math.round(double d)，返回值类型long。
+
+对象数组内存解析：
+    引用类型的变量只可能存放两种值：null和地址值，所以每一个都要new一个对象
  */
 public class StudentTest {
     public static void main(String[] args) {
@@ -92,6 +95,4 @@ class Student {
     public void printInfo() {
         System.out.println("学号是："+number+"，年级是："+state+"，成绩是："+score);
     }
-
-
 }

@@ -33,7 +33,6 @@ public class CopySearch {
         //方法2
         for (int i = 0, j = arr2.length - 1; i < j; i++, j--) {
             int temp = arr2[i];
-            ;
             arr2[i] = arr2[j];
             arr2[j] = temp;
         }
