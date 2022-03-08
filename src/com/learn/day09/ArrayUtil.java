@@ -77,6 +77,7 @@ public class ArrayUtil {
 
     //查找指定元素
     public int getIndex(int[] arr,int target) {
+        sort(arr);
         int head = 0;//首索引
         int end = arr.length - 1;//末索引值
         while (head <= end) {
@@ -89,7 +90,6 @@ public class ArrayUtil {
                 end = middle - 1;
             }
         }
-
         return -1;//返回-1，表示没有找到
     }
 
